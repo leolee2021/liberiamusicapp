@@ -1,0 +1,40 @@
+config.py
+.env
+venv
+.idea
+__pycache__
+*.pyc
+.history
+modules/vrs/vrs_config.py
+
+# for Katalon studio
+.classpath
+.project
+automation/Data Files/excel_data_files/*.xlsx
+
+automation/Libs/*
+automation/settings/*
+automation/bin/*
+automation/Reports/*
+docs_source/coverage_html/*
+
+# sonarQube bug checking
+.scannerwork/*
+.coverage
+
+.vscode
+
+vff_cache_dir
+
+**/asset-build-dev/
+**/style-config.styl
+**/__pycache__/
+/sysconfig.yml
+.DS_Store
+**/.DS_Store
+*.har
+*.xlsx
+**/0.109.10-1/
+
+sys_conf_dict.py
+locale_auto_dict.py
